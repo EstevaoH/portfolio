@@ -2,6 +2,7 @@
 Repositorio para meus projetos salva meu projetos pessoais e projetos de estudos
 
 Frontend developer working on projects since 2019 as a contractor; I usually work with Javascript and also with Typescript, using their frameworks and libraries like React, Angular, IONIC, NextJS. For UX/UI I usually work with Figma and Photoshop. I have basic knowledge in NodeJS, Python, Java, PHP and databases like MySQL and MongoDB. I read and understand English well, but I'm taking classes to improve my conversation.
+
 ------------------------------------------------
 
 ## In portuguese
