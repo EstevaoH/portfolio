@@ -11,6 +11,7 @@ Desenvolvedor Frontend atuando em projetos desde 2019 como contratado por empres
 Para UX/UI geralmente trabalho com Figma e Photoshop.
 
 Tenho conhecimentos básicos em NodeJS, Python, Java, PHP e em bancos de dados como MySQL e MongoDB . Eu leio e entendo bem inglês, mas estou tendo aulas para melhorar minha conversação.
+
 -------------------------------------------
 
 ## Knowledge Base/Base de conhecimentos
