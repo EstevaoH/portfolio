@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #ef6c00;
+  --color-text-default: #ff6600;
+  --color-text-number-default: #262a34;
+  --color-text-number-light: #dddddd;
+  --color-text-success: #32bf00;
+  --color-text-error: #cc3300;
+}

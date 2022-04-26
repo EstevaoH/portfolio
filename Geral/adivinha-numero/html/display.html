@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Display Digital</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/display.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/fonts.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/color.css'>
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <h1 class="display_titulo">
+                QUAL É O NÚMERO?
+                <hr>
+            </h1>
+        </header>
+    </section>
+
+    <section>
+        <div id="display_mensagem_resultado" class="display_texto_acerto"></div>
+        <div id="display_mensagem_dica" class="texto_dica"></div>
+        <div id="display" class="display_digital"></div>
+        <div id="nova_partida" class="novaPartida"></div>
+    </section>
+
+    <section>
+        <form id="formulario">
+            <input class="display_input" max="300" min="0" id="url_valor" type="number"
+                placeholder="Digite o palpite" />
+            <button id="button_comparar" class="display_button" type="submit">
+                ENVIAR
+            </button>
+        </form>
+        <div id="resposta"></div>
+    </section>
+
+    <script type="text/javascript" src="../js/index.js"></script>
+
+</body>
+
+</html>
