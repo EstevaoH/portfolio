@@ -1,0 +1,50 @@
+section{
+  padding: 120px;
+}
+.secao{
+  display: grid;
+  justify-items: center;
+  grid-gap: 1.5rem;
+}
+
+.secao__header--titulo{
+  color: var(--title);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.secao__button{
+  align-items: center;
+  background: var(--bg-button);
+  border-color: var(--bg-button);
+  border: 2px solid #1A1A1A;
+  border-radius: 5px;
+  color: #000;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  justify-content: space-around;
+  height: 3rem;
+  width: 11.25rem;
+}
+.secao_butto--icon{
+  background-image: url(../../assets/shuffle.svg);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 25px;
+}
+
+.secao__explicacao{
+  text-align: center;
+  color: var(--title);
+}
+
+@media(max-width: 991px) {
+  .secao__header--titulo{
+    text-align: center;
+  }
+}

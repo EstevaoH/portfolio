@@ -1,0 +1,28 @@
+<section class="container">
+  <div class="row secao">
+
+    <header class="d-grid justify-content-center">
+      <div class="text-center">
+        <img class="" src="../../assets/logo.png" alt="Logo rocketflix">
+      </div>
+      <h1 class="secao__header--titulo">
+        Não sabe o que assistir?
+      </h1>
+    </header>
+
+    <app-card-filme [filme_error]="filme_error" [filme_poster]="filmes.poster_path" [filme_overview]="filmes.overview"
+      [filme_title]="filmes.title">
+    </app-card-filme>
+
+    <button (click)="get_filmes()" class="secao__button">
+      <i class="secao_butto--icon"></i>
+      Encontrar filme
+    </button>
+
+    <span class="secao__explicacao">
+      Clique em "Encontrar filme" que traremos informações
+      de algum filme para você assistir hoje.
+    </span>
+  </div>
+
+</section>

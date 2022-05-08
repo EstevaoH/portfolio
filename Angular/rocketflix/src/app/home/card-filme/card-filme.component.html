@@ -1,0 +1,35 @@
+<div *ngIf="!filme_error" class="row">
+  <div class="col-lg-4 d-flex justify-content-end card__conteudo">
+    <img class="card__conteudo--img" src="https://image.tmdb.org/t/p/w500/{{filme_poster}}"
+      alt="Poster do filme {{filme_title}}">
+  </div>
+  <div class="col-lg-6">
+    <h3 class="card__conteudo--titulo">
+      {{filme_title}}
+    </h3>
+    <p class="card__conteudo--texto">
+      {{filme_overview}}
+    </p>
+
+
+    <h3 *ngIf="!filme_title" class="card__conteudo--titulo">
+      Ops! O filme não contem título
+    </h3>
+    <p *ngIf="!filme_overview" class="card__conteudo--texto">
+      Ops! O filme não contem uma descrição! :(
+    </p>
+
+  </div>
+</div>
+
+<div *ngIf="filme_error" class="row">
+  <div class="col-lg-4 d-flex justify-content-end card__conteudo">
+    <img src="../../../assets/poster-error.png" alt="Imagem de error">
+  </div>
+  <div class="col-lg-6 card__conteudo">
+    <h3 class="card__conteudo--titulo-error">
+      Ops, hoje não é dia de assistir filme.
+      Bora codar! 🚀
+    </h3>
+  </div>
+</div>

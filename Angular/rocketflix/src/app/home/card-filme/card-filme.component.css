@@ -1,0 +1,38 @@
+.card__conteudo--texto{
+  color: var(--subtitle);
+}
+.card__conteudo--titulo{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--title);
+}
+.card__conteudo--img{
+  width: 11rem;
+  height: 15rem;
+}
+
+.card__conteudo--titulo-error{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--title);
+}
+
+.card__conteudo{
+  display: grid;
+  align-items: center;
+}
+
+@media(max-width: 991px) {
+  .card__conteudo{
+    justify-content: center !important;
+  }
+  .card__conteudo--texto{
+    text-align: center;
+  }
+  .card__conteudo--titulo{
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
